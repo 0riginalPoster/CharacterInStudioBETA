@@ -4,11 +4,11 @@ local Settings = require(script.Parent.Settings)
 local Character = require(script.Parent.Character)
  
 Menu.Toolbar = _G.CharacterInStudio:CreateToolbar("Studio Character")
-Menu.ButtonCharacterSettings = Menu.Toolbar:CreateButton("Character Settings", "Configure your character", "rbxassetid://692849427")
+Menu.ButtonCharacterSettings = Menu.Toolbar:CreateButton("Character Settings", "Configure your character", "rbxassetid://5882460669")
 Menu.WidgetCharacterSettings = _G.CharacterInStudio:CreateDockWidgetPluginGui(
 	"CharacterSettings", 
 	DockWidgetPluginGuiInfo.new(
-		Enum.InitialDockState.Lefxzt,
+		Enum.InitialDockState.Left,
 		true,
 		false,
 		200,
